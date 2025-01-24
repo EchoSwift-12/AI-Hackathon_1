@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI-Powered Study Portal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo">AI Study Portal</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#subjects">Subjects</a></li>
+        <li><a href="#qa">Q&A</a></li>
+        <li><a href="#resources">Resources</a></li>
+      </ul>
+    </nav>
+  
+    <!-- Home Section -->
+    <section id="home" class="section">
+      <h1>Welcome to AI-Powered Study Portal!</h1>
+      <p>Your go-to platform for personalized academic assistance.</p>
+      <button onclick="navigateTo('subjects')">Get Started</button>
+    </section>
+  
+    <!-- Subjects Section -->
+    <section id="subjects" class="section">
+      <h2>Subjects</h2>
+      <div class="subjects-grid">
+        <div class="subject-card">Math</div>
+        <div class="subject-card">Science</div>
+        <div class="subject-card">History</div>
+        <div class="subject-card">English</div>
+        <div class="subject-card">Physics</div>
+        <div class="subject-card">Geography</div>
+      </div>
+    </section>
+  
+    <!-- Q&A Section -->
+    <section id="qa" class="section">
+      <h2>Ask Your Questions</h2>
+      <div class="qa-container">
+        <input type="text" id="question" placeholder="Type your question here...">
+        <button onclick="getAnswer()">Submit</button>
+      </div>
+      <div id="answer"></div>
+    </section>
+  
+    <!-- Resources Section -->
+    <section id="resources" class="section">
+      <h2>Resources</h2>
+      <div class="resources-list">
+        <div class="resource-card">
+          <p>Videos</p>
+          <button>Explore Videos</button>
+        </div>
+        <div class="resource-card">
+          <p>PDFs</p>
+          <button>Explore PDFs</button>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
+
