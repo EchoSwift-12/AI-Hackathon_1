@@ -17,5 +17,5 @@
         }
   
         // Example response logic
-        answerBox.textContent = `AI says: "Great question! Here's an explanation for '${question}'."`;
+        answerBox.textContent = `"Great question! Here's an explanation for '${question}'."`;
       }
